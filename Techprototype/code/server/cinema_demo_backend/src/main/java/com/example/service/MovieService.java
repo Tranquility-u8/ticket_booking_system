@@ -1,0 +1,16 @@
+package com.example.service;
+
+import com.example.entity.MovieEntity;
+
+import java.util.List;
+import java.util.Optional;
+
+public interface MovieService {
+    MovieEntity save(MovieEntity movie);
+    void deleteById(int id);
+    Optional<MovieEntity> findById(int id);
+    List<MovieEntity> findAll();
+    List<MovieEntity> findByTitle(String title);
+    List<MovieEntity> findByGenre(String genre);
+    List<MovieEntity> findByDirector(String director);
+}
