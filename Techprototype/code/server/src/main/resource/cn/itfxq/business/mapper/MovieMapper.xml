@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="cn.server.business.movie.mapper.MovieMapper">
+
+	<sql id="whereSql">
+		<where>
+			<if test="moviename != null and moviename != ''">
+				and u.moviename like concat('%',#{moviename},'%')
+			</if>
+
+		</where>
+	</sql>
+
+	<select id="queryAll" resultType="Movie">
+		select * from t_movie
+	</select>
+
+
+	<!--分页-->
+	<select id="queryTotal" parameterType="MovieQuery"
+			resultType="java.lang.Long">
+		select count(*)
+		from t_movie u
+		<include refid="whereSql"></include>
+	</select>
+
+
+	<select id="queryData" parameterType="MovieQuery" resultType="Movie">
+		select u.*
+		from t_movie u
+		<include refid="whereSql"></include>
+		order by u.id desc
+		limit #{offset},#{pageSize}
+	</select>
+
+	<!--getMovieByHouseid -->
+
+	<select id="getMovieByHouseid" parameterType="MovieHouse"
+			resultMap="MovieMap">
+		select u.*,h.id hid,h.name hname,h.address,h.price hprice
+		from t_movie u join t_moviehouse h on u.houseid = h.id
+		where u.houseid = #{id}
+	</select>
+
+	<resultMap id="MovieMap" type="Movie">
+		<id column="id" property="id"></id>
+		<result column="hid" property="movieHouse.id"></result>
+		<result column="hname" property="movieHouse.name"></result>
+		<result column="address" property="movieHouse.address"></result>
+		<result column="hprice" property="movieHouse.price"></result>
+	</resultMap>
+
+
+
+
+
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
