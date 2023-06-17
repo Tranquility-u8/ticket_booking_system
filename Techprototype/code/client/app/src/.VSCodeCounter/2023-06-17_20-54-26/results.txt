@@ -1,0 +1,103 @@
+Date : 2023-06-17 20:54:26
+Directory : d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src
+Total : 59 files,  4010 codes, 163 comments, 697 blanks, all 4870 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| XML      |         37 |      2,127 |         62 |        150 |      2,339 |
+| Java     |         22 |      1,883 |        101 |        547 |      2,531 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                   | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                      |         59 |      4,010 |        163 |        697 |      4,870 |
+| main                                                                                                                   |         59 |      4,010 |        163 |        697 |      4,870 |
+| main (Files)                                                                                                           |          1 |         65 |          0 |          2 |         67 |
+| main\java                                                                                                              |         22 |      1,883 |        101 |        547 |      2,531 |
+| main\java\cn                                                                                                           |         22 |      1,883 |        101 |        547 |      2,531 |
+| main\java\cn\movie                                                                                                     |         22 |      1,883 |        101 |        547 |      2,531 |
+| main\java\cn\movie\activity                                                                                            |          8 |      1,015 |         36 |        222 |      1,273 |
+| main\java\cn\movie\adapter                                                                                             |          4 |        328 |         45 |        140 |        513 |
+| main\java\cn\movie\entity                                                                                              |          7 |        367 |          6 |        129 |        502 |
+| main\java\cn\movie\service                                                                                             |          1 |         32 |          8 |          8 |         48 |
+| main\java\cn\movie\utils                                                                                               |          2 |        141 |          6 |         48 |        195 |
+| main\res                                                                                                               |         36 |      2,062 |         62 |        148 |      2,272 |
+| main\res\anim                                                                                                          |          1 |         12 |          0 |          1 |         13 |
+| main\res\drawable                                                                                                      |         10 |        257 |          5 |         10 |        272 |
+| main\res\drawable-v24                                                                                                  |          1 |         30 |          0 |          0 |         30 |
+| main\res\layout                                                                                                        |         15 |      1,647 |         37 |        129 |      1,813 |
+| main\res\mipmap-anydpi-v26                                                                                             |          2 |         10 |          0 |          0 |         10 |
+| main\res\values                                                                                                        |          5 |         91 |         15 |          8 |        114 |
+| main\res\values-night                                                                                                  |          1 |         11 |          5 |          0 |         16 |
+| main\res\xml                                                                                                           |          1 |          4 |          0 |          0 |          4 |
++------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                               | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\AndroidManifest.xml                             | XML      |         65 |          0 |          2 |         67 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\LoginActivity.java       | Java     |        113 |          6 |         23 |        142 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\MainActivity.java        | Java     |        130 |          0 |         33 |        163 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\MovieActivity.java       | Java     |         90 |          0 |         22 |        112 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\MovieManageActivity.java | Java     |         61 |          2 |         18 |         81 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\MyActivity.java          | Java     |         55 |          0 |         25 |         80 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\MyOrderActivity.java     | Java     |        113 |          0 |         24 |        137 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\OrderActivity.java       | Java     |        306 |         28 |         55 |        389 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\activity\RegActivity.java         | Java     |        147 |          0 |         22 |        169 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\adapter\MovieAdapter.java         | Java     |        107 |          0 |         49 |        156 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\adapter\MovieHouseAdapter.java    | Java     |         73 |         16 |         35 |        124 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\adapter\MovieManageAdapter.java   | Java     |         70 |         15 |         40 |        125 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\adapter\MyOrderAdapter.java       | Java     |         78 |         14 |         16 |        108 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\BaseEntity.java            | Java     |         10 |          0 |          4 |         14 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\MovieEntity.java           | Java     |         97 |          0 |         29 |        126 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\MovieHouseEntity.java      | Java     |         33 |          0 |         12 |         45 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\MovieManageEntity.java     | Java     |         53 |          0 |         24 |         77 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\OrderDetailEntity.java     | Java     |         31 |          0 |         12 |         43 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\OrderEntity.java           | Java     |         96 |          3 |         31 |        130 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\entity\UserEntity.java            | Java     |         47 |          3 |         17 |         67 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\service\RemoteDatas.java          | Java     |         32 |          8 |          8 |         48 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\utils\CommonUtils.java            | Java     |        126 |          5 |         32 |        163 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\java\cn\movie\utils\ItFxqConstants.java         | Java     |         15 |          1 |         16 |         32 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\anim\car_expant_anim.xml                    | XML      |         12 |          0 |          1 |         13 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable-v24\ic_launcher_foreground.xml     | XML      |         30 |          0 |          0 |         30 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\badge_bg.xml                       | XML      |          9 |          0 |          1 |         10 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\btnshape.xml                       | XML      |         19 |          5 |          1 |         25 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\corner_bg.xml                      | XML      |          9 |          0 |          1 |         10 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\divider.xml                        | XML      |          5 |          0 |          2 |          7 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\ic_launcher_background.xml         | XML      |        170 |          0 |          1 |        171 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\infobg.xml                         | XML      |          5 |          0 |          1 |          6 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\item_bg_selector.xml               | XML      |         15 |          0 |          1 |         16 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\menu_itembg.xml                    | XML      |          5 |          0 |          1 |          6 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\paybg.xml                          | XML      |          5 |          0 |          1 |          6 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\drawable\shap_circle.xml                    | XML      |         15 |          0 |          0 |         15 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_login.xml                   | XML      |         85 |          0 |          6 |         91 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_main.xml                    | XML      |         76 |          7 |         25 |        108 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_movie.xml                   | XML      |         54 |          4 |         14 |         72 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_movie_pp.xml                | XML      |        143 |          4 |         18 |        165 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_my.xml                      | XML      |        174 |          8 |         15 |        197 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_my_order.xml                | XML      |         38 |          0 |          2 |         40 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_order.xml                   | XML      |         10 |          0 |          1 |         11 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\activity_reg.xml                     | XML      |        165 |          0 |          9 |        174 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\menu.xml                             | XML      |         18 |         14 |          3 |         35 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\moviehouselist_item.xml              | XML      |         76 |          0 |          4 |         80 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\movielist_item.xml                   | XML      |        130 |          0 |          6 |        136 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\moviepplist_item.xml                 | XML      |         69 |          0 |          8 |         77 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\order_form.xml                       | XML      |        489 |          0 |         13 |        502 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\order_item.xml                       | XML      |         77 |          0 |          4 |         81 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\layout\order_pay.xml                        | XML      |         43 |          0 |          1 |         44 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml           | XML      |          5 |          0 |          0 |          5 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml     | XML      |          5 |          0 |          0 |          5 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values-night\themes.xml                     | XML      |         11 |          5 |          0 |         16 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values\colors.xml                           | XML      |         23 |          0 |          1 |         24 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values\dimens.xml                           | XML      |          4 |          1 |          0 |          5 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values\strings.xml                          | XML      |         12 |          1 |          0 |         13 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values\styles.xml                           | XML      |         36 |          8 |          6 |         50 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\values\themes.xml                           | XML      |         16 |          5 |          1 |         22 |
+| d:\GitBox\ticket_booking_system\Techprototype\code\client\app\src\main\res\xml\network_security_config.xml             | XML      |          4 |          0 |          0 |          4 |
+| Total                                                                                                                  |          |      4,010 |        163 |        697 |      4,870 |
++------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
